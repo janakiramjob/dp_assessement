@@ -1,0 +1,32 @@
+# Terraform working directory
+**/.terraform/
+**/.terraform.lock.hcl
+
+# Terraform state files
+**/terraform.tfstate
+**/terraform.tfstate.backup
+**/*.tfstate
+**/*.tfstate.backup
+
+# Terraform variable files
+**/*.tfvars
+**/*.tfvars.json
+
+# Crash logs
+crash.log
+terraform.crash.log
+*.log
+
+# Override files (can contain secrets or local-only config)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Local CLI configuration
+.terraformrc
+terraform.rc
+
+# General system files
+.DS_Store
+Thumbs.db
